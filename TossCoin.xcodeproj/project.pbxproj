@@ -13,6 +13,8 @@
 		321D167228D752EA00FE68AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321D167028D752EA00FE68AA /* Main.storyboard */; };
 		321D167428D752EF00FE68AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321D167328D752EF00FE68AA /* Assets.xcassets */; };
 		321D167728D752EF00FE68AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321D167528D752EF00FE68AA /* LaunchScreen.storyboard */; };
+		321D168028D753AF00FE68AA /* flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 321D167F28D753AF00FE68AA /* flip.mp3 */; };
+		321D168428D768DC00FE68AA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321D168328D768DC00FE68AA /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		321D167328D752EF00FE68AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		321D167628D752EF00FE68AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		321D167828D752EF00FE68AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321D167F28D753AF00FE68AA /* flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flip.mp3; sourceTree = "<group>"; };
+		321D168328D768DC00FE68AA /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		321D166928D752EA00FE68AA /* TossCoin */ = {
 			isa = PBXGroup;
 			children = (
+				321D167E28D7539500FE68AA /* Sounds */,
 				321D166A28D752EA00FE68AA /* AppDelegate.swift */,
 				321D166C28D752EA00FE68AA /* SceneDelegate.swift */,
 				321D166E28D752EA00FE68AA /* ViewController.swift */,
@@ -63,8 +68,17 @@
 				321D167328D752EF00FE68AA /* Assets.xcassets */,
 				321D167528D752EF00FE68AA /* LaunchScreen.storyboard */,
 				321D167828D752EF00FE68AA /* Info.plist */,
+				321D168328D768DC00FE68AA /* InfoViewController.swift */,
 			);
 			path = TossCoin;
+			sourceTree = "<group>";
+		};
+		321D167E28D7539500FE68AA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				321D167F28D753AF00FE68AA /* flip.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 			files = (
 				321D167728D752EF00FE68AA /* LaunchScreen.storyboard in Resources */,
 				321D167428D752EF00FE68AA /* Assets.xcassets in Resources */,
+				321D168028D753AF00FE68AA /* flip.mp3 in Resources */,
 				321D167228D752EA00FE68AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			files = (
 				321D166F28D752EA00FE68AA /* ViewController.swift in Sources */,
 				321D166B28D752EA00FE68AA /* AppDelegate.swift in Sources */,
+				321D168428D768DC00FE68AA /* InfoViewController.swift in Sources */,
 				321D166D28D752EA00FE68AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
